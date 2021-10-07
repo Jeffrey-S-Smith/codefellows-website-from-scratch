@@ -126,7 +126,7 @@ span.m-list{
 
 .profile image img {
     width: 450px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .about {
@@ -163,9 +163,9 @@ span.m-list{
 }
 
 .about img {
-    width: 300px;
+    width: 600px;
     position: relative;
-    top: -300px;
+    top: -800px;
     left: calc(100% - 100px);
     right: calc(100% -100px);
     transform: translateX(calc(-100% - 100px));
