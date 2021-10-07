@@ -8,4 +8,4 @@ Jeffrey Smith
 
 ### Description
 
-Simple website about:
+Simple website 
