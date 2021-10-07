@@ -1,7 +1,8 @@
-let person = prompt("Please enter your name", "Harry Potter");
-let text;
-if (person == null || person == "") {
-  text = "User cancelled the prompt.";
+let userName = prompt('Please enter your name!');
+console.log(userName);
+
+if(userName == 'Jeffrey'){
+  document.write('<h2>Welcome Lord ' + userName + '</h2>');
 } else {
-  text = "Hello " + person + "! How are you today?";
+  document.write('<h2>Welcome ' + userName + '</h2>');
 }
