@@ -16,8 +16,11 @@ return userName;
 
 
 function joinFrustratedClub(){
-    let userAnswer = prompt('Hello, Do you want to join the Frustrated Club?');
-    
+    let userAnswer = prompt('Hello, Do you want to join the Frustrated Club Yes is the only good answer?');
+    while (userAnswer.toLowerCase() != "yes") {
+      userAnswer = prompt('Hello, Do you want to join the Frustrated Club Yes is the only good answer?');
+    }
+
     if(userAnswer.toLowerCase() == 'yes'){
         let url = "https://st.depositphotos.com/1654249/1263/i/600/depositphotos_12630322-stock-photo-ashamed-3d-man-sitting-over.jpg";
         document.write('<img id="frustrated" src="' + url + '">');
